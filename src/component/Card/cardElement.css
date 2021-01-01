@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.grouping_class {
+  display: inline-block;
+  text-align: end;
+}
+
+.name_class {
+  font-family: 'Staatliches', cursive;
+  margin: 10px 0px;
+  margin-top: 0px;
+  font-size: 17px;
+}
+
+.age {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+.hover-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.grouping_class:hover .hover-text {
+  visibility: visible;
+}
