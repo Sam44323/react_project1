@@ -2,4 +2,4 @@
 
 ## you can surely check the code and get any improvement if you want
 
-Thanks!
+Thanks.
